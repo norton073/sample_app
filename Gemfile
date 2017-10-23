@@ -33,12 +33,13 @@ group :development do
 end
 
 group :test do
-  gem 'selenium-webdriver', '3.5.2'
+  gem 'selenium-webdriver',       '3.5.2'
   gem 'capybara', '2.15.2'
   gem 'rails-controller-testing', '1.0.2'
   gem 'minitest-reporters',       '1.1.14'
   gem 'guard',                    '2.14.1'
   gem 'guard-minitest',           '2.4.6'
+  gem 'factory_girl_rails',       '4.8.0'
 end
 
 group :production do
